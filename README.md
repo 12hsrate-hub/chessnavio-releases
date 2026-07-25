@@ -39,7 +39,8 @@ ChessNavio помогает понять позицию, увидеть силь
 
 ```bash
 gh release verify v1.0.0 --repo 12hsrate-hub/chessnavio-releases
-gh release verify-asset v1.0.0 <путь-к-архиву> \
+gh release verify-asset v1.0.0 \
+  ./chessnavio-1.0.0-chrome-standard.zip \
   --repo 12hsrate-hub/chessnavio-releases
 ```
 
