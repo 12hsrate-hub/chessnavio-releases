@@ -1,7 +1,9 @@
 # Безопасность ChessNavio
 
 Если вы нашли уязвимость, не публикуйте её в открытом доступе. Напишите на
-[12hsrate@gmail.com](mailto:12hsrate@gmail.com) и укажите:
+[12hsrate@gmail.com](mailto:12hsrate@gmail.com) или отправьте
+[приватное сообщение через GitHub](https://github.com/12hsrate-hub/chessnavio-releases/security/advisories/new).
+Укажите:
 
 - версию ChessNavio и браузер;
 - понятные шаги воспроизведения;
