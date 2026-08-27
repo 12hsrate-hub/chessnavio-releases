@@ -16,7 +16,7 @@ ChessNavio показывает шахматные подсказки прямо
 ## Скачать
 
 Актуальный выпуск:
-[ChessNavio 1.1.6](https://github.com/12hsrate-hub/chessnavio-releases/releases/latest).
+[ChessNavio 1.2.0](https://github.com/12hsrate-hub/chessnavio-releases/releases/latest).
 
 В каждом релизе два архива:
 
@@ -30,10 +30,10 @@ ChessNavio показывает шахматные подсказки прямо
 **Пошаговая установка** (рекомендуется):
 [chessnavio.ru/install](https://chessnavio.ru/install?utm_source=github&utm_medium=referral&utm_campaign=active_hints_launch&utm_content=release_notes)
 
-VirusTotal для текущей версии 1.1.6:
+VirusTotal для текущей версии 1.2.0:
 
-- [обычная версия](https://www.virustotal.com/gui/file/7b37727464353464554787e877e76478ca1c97f581005040639179b2ea53e873)
-- [версия для мощных компьютеров](https://www.virustotal.com/gui/file/90b3d014a079629c10964604d855f9dacde051e0c4e1843e91147c903cbdd537)
+- [обычная версия](https://www.virustotal.com/gui/file/b5d5cbb1b212a49d8e04f73111d249be492d9bc51da4bdda0996eef47dad2492)
+- [версия для мощных компьютеров](https://www.virustotal.com/gui/file/a3d104ece3310dc7159819c56f9f2c0a95630d1a145eb3dc3ef8ab82ffd8ca9e)
 
 ## Что умеет расширение
 
@@ -60,9 +60,9 @@ VirusTotal для текущей версии 1.1.6:
 Проверка неизменяемости выпуска (GitHub CLI):
 
 ```bash
-gh release verify v1.1.6 --repo 12hsrate-hub/chessnavio-releases
-gh release verify-asset v1.1.6 \
-  ./chessnavio-1.1.6-chrome-standard.zip \
+gh release verify v1.2.0 --repo 12hsrate-hub/chessnavio-releases
+gh release verify-asset v1.2.0 \
+  ./chessnavio-1.2.0-chrome-standard.zip \
   --repo 12hsrate-hub/chessnavio-releases
 ```
 
