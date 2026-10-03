@@ -16,13 +16,14 @@ ChessNavio показывает шахматные подсказки прямо
 ## Скачать
 
 Актуальный выпуск:
-[ChessNavio 1.3.0](https://github.com/12hsrate-hub/chessnavio-releases/releases/latest).
+[ChessNavio 1.3.3](https://github.com/12hsrate-hub/chessnavio-releases/releases/latest).
 
-В каждом релизе два архива:
+Для установки скачивайте:
 
-- `chessnavio-*-chrome-standard.zip` — обычная версия, подходит большинству
-  компьютеров;
-- `chessnavio-*-chrome-max.zip` — версия для мощных компьютеров.
+- `chessnavio-*-chrome-standard.zip` — обычная версия для всех компьютеров.
+
+Архив Max в 1.3.3 опубликован только для совместимости встроенного обновления
+у старых установок; выбирать его для новой установки не нужно.
 
 Рядом публикуется `SHA256SUMS.txt` — сравните контрольную сумму перед
 установкой.
@@ -30,10 +31,9 @@ ChessNavio показывает шахматные подсказки прямо
 **Пошаговая установка** (рекомендуется):
 [chessnavio.ru/install](https://chessnavio.ru/install?utm_source=github&utm_medium=referral&utm_campaign=active_hints_launch&utm_content=release_notes)
 
-VirusTotal для текущей версии 1.3.0:
+VirusTotal для текущей версии 1.3.3:
 
-- [обычная версия](https://www.virustotal.com/gui/file/5d7c79e78eb5bed314fd42159cf920858f02db130ef5c46c3bd0eb28e0111950)
-- [версия для мощных компьютеров](https://www.virustotal.com/gui/file/79c4b788b994486342d24eda5001f5c9b1807e2ead4bf1be1972753c8dadaf32)
+- [обычная версия](https://www.virustotal.com/gui/file/1b75328633a1da7af1a2347b93e20e96e48ef904e9e959aff2ebc3c94683021b)
 
 ## Что умеет расширение
 
@@ -60,9 +60,9 @@ VirusTotal для текущей версии 1.3.0:
 Проверка неизменяемости выпуска (GitHub CLI):
 
 ```bash
-gh release verify v1.3.0 --repo 12hsrate-hub/chessnavio-releases
-gh release verify-asset v1.3.0 \
-  ./chessnavio-1.3.0-chrome-standard.zip \
+gh release verify v1.3.3 --repo 12hsrate-hub/chessnavio-releases
+gh release verify-asset v1.3.3 \
+  ./chessnavio-1.3.3-chrome-standard.zip \
   --repo 12hsrate-hub/chessnavio-releases
 ```
 
